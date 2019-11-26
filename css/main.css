@@ -1,7 +1,116 @@
 html {
   font-family: 'Roboto', sans-serif;
 }
+
+header a {
+  text-decoration:none;
+}
+
+header {
+  width: 100vw;
+}
+
+header .header-button {
+  background-color: #4DC3F9;
+  display: block;
+  width: 235px;
+  height: 40px;
+  margin: 30px auto;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+header img {
+  width: 150px;
+  margin: 30px auto;
+  display: block;
+}
+
+.cohort-picture{
+  width: 100vw;
+  height: 410px;
+  background-image: url("../img/squad.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro-program h1 {
+  font-family: 'Roboto mono', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color: #2D354C;
+}
+.intro-program p {
+  font-size: 18px;
+  color: #818693;
+  line-height: 30px;
+}
+
+#bootcamp-program {
+  padding: 0 35px;
+}
+
+.card-program {
+  background-color: #F8F8F8;
+  border-radius: 6px;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-program .card-time {
+  color: #EC3A35;
+  font-size: 14px;
+}
+
+.card-program .card-title {
+  font-family: 'Roboto mono', sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.card-program .card-schedule {
+  color: #818693;
+  font-size: 20px;
+  line-height: 32px;
+}
+
 #bootcamp-figures{
-background-color: #00B4FE;
-height: 200 px;
+background-color: #4DC3F9;
+height: 410px;
+padding: 20px;
+}
+
+h2.figure-title {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Roboto mono", sans-serif;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.figures-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.figures-wrapper .figure {
+  flex: 0 0 50%;
+  text-align: center;
+  font-size: 90px;
+  font-family: "Roboto mono",sans-serif;
+  margin-bottom: 20px;
+}
+
+.figures-wrapper .figure span {
+  font-size: 20px;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
